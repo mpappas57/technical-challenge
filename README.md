@@ -44,4 +44,6 @@ Configuration of terraform repo:
 -	To change any values of the variables go to the terraform.tfvars to edit the variables value 
 -	On the backend.tf file be sure to change the variable bucket and key values to the name of the bucket and the name of the folder you created.
 
+Architecture Diagram of Terraform Repo:
+<img width="975" alt="Screen Shot 2022-09-18 at 10 17 55 PM" src="https://user-images.githubusercontent.com/56840177/190953745-7e7d46f3-4135-43c5-9431-91d986b866e5.png">
 
