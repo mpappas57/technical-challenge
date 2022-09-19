@@ -55,14 +55,14 @@ resource "aws_subnet" "private_subnet" {
 resource "aws_route_table" "private" {
   vpc_id = "${aws_vpc.vpc.id}"
   tags = {
-    Name        = "${var.environment}-private-route-table"
+    Name        = "${var.environment}-private-rt"
   }
 }
 #Routing table for public subnet
 resource "aws_route_table" "public" {
   vpc_id = "${aws_vpc.vpc.id}"
   tags = {
-    Name        = "${var.environment}-public-route-table"
+    Name        = "${var.environment}-public-rt"
   }
 }
 resource "aws_route" "public_internet_gateway" {
