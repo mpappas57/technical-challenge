@@ -3,7 +3,7 @@
 Perquisites to run this terraform repository in AWS environment:
 
 1.	Create AWS account 
-    a.	Direct to https://.aws.amazon.com/console/ and create an account 
+    a.	Direct to https://portal.aws.amazon.com and create an account 
 2.	Create Administrator user and generate AWS CLI access keys for the user 
     a.	Direct yourself to IAM service in your AWS account and create a User giving them administrator access to the AWS console
 3.	S3 bucket backend create 
