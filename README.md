@@ -35,7 +35,7 @@ Configuration of terraform repo:
      -	Application load balancer
      -	Auto scaling group
      -	Launch template 
--	S3 module creates
+-	S3 module creates:
      -	S3 bucket with folders
      -	AWS KMS key
      -	Lifecycle policy(s)
