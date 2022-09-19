@@ -25,7 +25,7 @@ Configuration of terraform repo:
 
 -	Two modules in the repo: networking and s3
 -	Networking module creates:
-    VPC
+     -	VPC
      -	Subnets (2 public and 2 private) 
      -	Routing tables (public and private) 
      -	Internet Gateway
